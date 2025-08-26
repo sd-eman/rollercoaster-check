@@ -1,0 +1,101 @@
+[
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "lib_coasterimg",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "lib_coasterimg",
+        "description": "lib_coasterimg",
+        "detail": "lib_coasterimg",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get",
+        "kind": 2,
+        "importPath": "lib_coasterimg",
+        "description": "lib_coasterimg",
+        "peekOfCode": "def get():\n    coasters = [\n\"\"\"\n  _                     .===.\n |H|        .--.      .:'   `:.\n |H|`.     /||||\\     ||     ||\n |\\\\||:. .'||||||`.   `:.   .:'\n |:`:.--'||||||||||`--..`=:='...                                                      \n\"\"\",\n\"\"\"",
+        "detail": "lib_coasterimg",
+        "documentation": {}
+    },
+    {
+        "label": "sad",
+        "kind": 2,
+        "importPath": "lib_coasterimg",
+        "description": "lib_coasterimg",
+        "peekOfCode": "def sad():\n    return \"\"\"\n     .-\\\"\\\"\\\"\\\"\\\"\\\"-.\n   .'          '.\n  /   O      O   \\\\\n :                :\n |                |\n :    .------.    :\n  \\\\  '        '  /\n   '.          .'",
+        "detail": "lib_coasterimg",
+        "documentation": {}
+    },
+    {
+        "label": "file1",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "file1 = open(\"rules/age.txt\", \"r\")\nage_check = int(file1.read())\nfile1.close()\nfile2 = open(\"rules/height.txt\", \"r\")\nheight_check = int(file2.read())\nfile2.close()\nrunning = True\nwhile running:\n    #Get inputs\n    os.system('cls')",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "age_check",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "age_check = int(file1.read())\nfile1.close()\nfile2 = open(\"rules/height.txt\", \"r\")\nheight_check = int(file2.read())\nfile2.close()\nrunning = True\nwhile running:\n    #Get inputs\n    os.system('cls')\n    print(\"Rollercoaster-check™\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "file2",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "file2 = open(\"rules/height.txt\", \"r\")\nheight_check = int(file2.read())\nfile2.close()\nrunning = True\nwhile running:\n    #Get inputs\n    os.system('cls')\n    print(\"Rollercoaster-check™\")\n    age = input(\"Voer leeftijd in: \")\n    height = input(\"Voer lengte in: \")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "height_check",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "height_check = int(file2.read())\nfile2.close()\nrunning = True\nwhile running:\n    #Get inputs\n    os.system('cls')\n    print(\"Rollercoaster-check™\")\n    age = input(\"Voer leeftijd in: \")\n    height = input(\"Voer lengte in: \")\n    age = int(age)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "running",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "running = True\nwhile running:\n    #Get inputs\n    os.system('cls')\n    print(\"Rollercoaster-check™\")\n    age = input(\"Voer leeftijd in: \")\n    height = input(\"Voer lengte in: \")\n    age = int(age)\n    height = int(height)\n    #Process checks",
+        "detail": "main",
+        "documentation": {}
+    }
+]
