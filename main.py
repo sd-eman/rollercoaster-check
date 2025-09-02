@@ -22,7 +22,7 @@ while running:
     age = int(age)
     height = int(height)
 
-    #Process checks
+    #Process checkss
     if(age > age_check and height > height_check):
         os.system('cls')
         print("Stap maar in!")
