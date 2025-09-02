@@ -94,7 +94,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "running = True\nwhile running:\n    #Get inputs\n    os.system('cls')\n    print(\"Rollercoaster-check™\")\n    age = input(\"Voer leeftijd in: \")\n    height = input(\"Voer lengte in: \")\n    age = int(age)\n    height = int(height)\n    #Process checks",
+        "peekOfCode": "running = True\nwhile running:\n    #Get inputs\n    os.system('cls')\n    print(\"Rollercoaster-check™\")\n    age = input(\"Voer leeftijd in: \")\n    height = input(\"Voer lengte in: \")\n    age = int(age)\n    height = int(height)\n    #Process checkss",
         "detail": "main",
         "documentation": {}
     }
